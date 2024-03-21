@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Add fonts from Adobe fonts or Google Fonts -->
-    <title>Submit Recommendations</title>
-    <!-- Add a favicon -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Add fonts from Adobe fonts or Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Submit Recommendations</title>
+  <!-- Add a favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
   <!-- Implement a skip to main! -->
-    <!-- <form action="" method="post"> Connect to formspree.io-->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-<div class="radio">
-        <label>Area of Submission:</label><br>
-        <!-- How can the label and button line up and be easily navigatable? -->
-  <input type="radio" id="travel" name="interest" value="travel" required>
-  <label for="travel">Travel</label><br>
-  <input type="radio" id="recipe" name="interest" value="recipe" tabindex="0">
-  <label for="recipe">Recipe</label><br>
-  <input type="radio" id="pets" name="interest" value="pets">
-  <label for="pets">Pets</label><br><br>
-</div>
+  <a href="#main">Skip to main content</a>
+  <form action="" method="post" id="main">
+    <br>
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" id="name" name="name">
+    <div class="radio">
+      <label>Area of Submission:</label><br>
+      <!-- How can the label and button line up and be easily navigatable? -->
+      <input type="radio" id="travel" name="interest" value="travel" required>
+      <label for="travel">Travel</label><br>
+      <input type="radio" id="recipe" name="interest" value="recipe" tabindex="0">
+      <label for="recipe">Recipe</label><br>
+      <input type="radio" id="pets" name="interest" value="pets">
+      <label for="pets">Pets</label><br><br>
+    </div>
 
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br><br>
 
-        <label for="image">Upload Image:</label><br>
-        <input type="file" id="image" name="image"><br><br>
+    <label for="image">Upload Image:</label><br>
+    <input type="file" id="image" name="image"><br><br>
 
-        <input type="submit" value="Submit">
+    <input type="submit" value="Submit">
 
-        <button type="reset">Reset</button>
-      </form>
+    <button type="reset">Reset</button>
+  </form>
 </body>
+
 </html>

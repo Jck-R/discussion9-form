@@ -26,8 +26,8 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
-    color: #9B9A6D;
+    background: #f6f2e8;
+    color: #151404;
   }
 
   #message {
@@ -46,7 +46,7 @@
   input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #063a07;
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,5 +54,14 @@
   }
 
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #0c8b13;
   }
+
+/* Edit CSS and HTML as needed to improve accessibility and aesthetics of the form
+○ Connect to Formspree
+○ Add a font from Google Fonts or Adobe Fonts
+○ Adjust the colors to form an accessible color palette */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
